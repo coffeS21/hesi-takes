@@ -10,7 +10,7 @@ server.use(morgan("dev"))
 
 //routes
 server.use("/takes", require("./routes/takeRouter"))
-server.use("/opinion", require("./routes/opinionRouter"))
+server.use("/opinions", require("./routes/opinionRouter"))
 server.use("/users", require("./routes/userRouter"))
 
 //servers

@@ -1,9 +1,9 @@
 import React from "react"
-
+import LandingPage from "../userPages/LandingPage"
 export default function HoldingFile(){
     return(
-        <>
-            <h1>test</h1>
-        </>
+        <div>
+            <LandingPage/>
+        </div>
     )
 }

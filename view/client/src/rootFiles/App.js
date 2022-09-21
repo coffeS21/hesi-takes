@@ -1,9 +1,9 @@
-import react from "React"
-
+import react from "react"
+import HoldingFile from "./HoldingFile"
 export default function App(){
     return(
-        <>
-            <h1>test</h1>
-        </>
+        <div>
+            <HoldingFile/>
+        </div>
     )
 }

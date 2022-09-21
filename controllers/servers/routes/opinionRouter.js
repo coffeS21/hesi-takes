@@ -14,8 +14,8 @@ opinionRouter.get("/", (req, res, next)=>{
 })
 
 //create new opinion
-opinionRouter.post("/:userId", (req,res,next)=>{
-    req.body.user = req.params.userId
+opinionRouter.post("/:takeId", (req,res,next)=>{
+    req.body.take = req.params.takeId
     const newOpinion = new Opinion(req.body)
     newOpinion.save((err, savedOpinion)=>{
         if(err){

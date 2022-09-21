@@ -8,6 +8,7 @@ const takeSchema = new Take({
         type: String,
         required: true, 
         uppercase: true,
+        required: true
     },
     discription: {
         type: String,
@@ -22,10 +23,10 @@ const takeSchema = new Take({
         default: 0
     },
     user: {
-        type: Take.Types.ObjectId,
-        ref: "User",
-        required: true
-    }
+      type: Take.Types.ObjectId,
+      ref: "User",
+      required: true
+  },
 })
 
 module.exports = mongoose.model("Take", takeSchema)
@@ -37,4 +38,5 @@ Comment.js ( related to the issue it was commented on, and related to the user t
 
 
 give the id of the 1 to the many
+
  */
