@@ -1,9 +1,9 @@
 import React from "react"
-
+import AllTakesRender from "../displayFiles/AllTakesRender"
 export default function AllTakes(){
     return(
-        <>
-            <h1>testing</h1>
-        </>
+        <div>
+            <AllTakesRender/>
+        </div>
     )
 }

@@ -1,19 +1,22 @@
 *{
     margin: 0%;
     padding:0%;
+    box-sizing:border-box;
+    font-family: 'Aldrich', sans-serif;
 }
 #landingPageHeaderContainer{
     background-color:#4CBB17;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
 }
 #landingPageHeader{
     color: whitesmoke;
     font-size: 75px;
-    font-family: 'Days One', sans-serif;
+    
 }
 #mainButtonContainer{
   display: flex;
@@ -44,7 +47,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-family: 'Days One', sans-serif;
+  font-family: 'Aldrich', sans-serif;
 }
 
 .button-82-shadow {
@@ -107,6 +110,8 @@
 .button-82-pushable:hover {
   filter: brightness(110%);
   -webkit-filter: brightness(110%);
+  
+  
 }
 
 .button-82-pushable:hover .button-82-front {
@@ -115,6 +120,8 @@
     transform
     250ms
     cubic-bezier(.3, .7, .4, 1.5);
+    background-color: black;
+    color:#4CBB17
 }
 
 .button-82-pushable:active .button-82-front {
