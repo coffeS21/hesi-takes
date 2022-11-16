@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const Opinion = mongoose.Schema
 
-
+// opinion is the comment on a take made by a user
 
 const opinionSchema = new Opinion({
     comment: {

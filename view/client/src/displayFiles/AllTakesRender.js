@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/Header"
-import "../styles/allTakes.css"
+import "../styles/takes.css"
 
 export default function AllTakesRender(){
     
@@ -8,7 +8,7 @@ export default function AllTakesRender(){
         <div id="gridContainer">
             
             <div id="allTakesHeaderContainer">
-                <Header header= "hesi takes"/>
+                <Header header= "all takes"/>
             </div>
 
         <section id="takeContainer">

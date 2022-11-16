@@ -3,10 +3,19 @@ const User = mongoose.Schema
 
 const userSchema = new User({
 
-    userName: {
+    username: {
       type:  String, 
     required: true, 
-    lowercase: true
+    lowercase: true,
+    unique: true
+    },
+    password: {
+      type: String,
+      required: true
+    },
+    joinDate: {
+      type: Date,
+      default: Date.now
     }
 })
 
